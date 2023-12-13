@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatable" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harry Walker: Software Developer</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css" />    
+
   </head>
   <body>
     <div id="header"></div>
@@ -25,34 +26,73 @@
           <p>Software Developer</p>
           <h1>Hi, I'm <br /><span>Harry Walker</span></h1>
         </div>
-        <img src="images/provisional-headshot.jpg" class="headshot">        
+        <img src="images/provisional-headshot.jpg" class="headshot" />
       </div>
     </div>
-<!-- ABOUT -->
+    <!-- ABOUT -->
     <div id="about">
       <div class="container">
         <div class="row">
           <div class="about-col-1">
-            <img src="images/smiley.jpg">
+            <img src="images/smiley.jpg" />
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur 
-              adipiscing elit. Integer et suscipit sapien. 
-              Nam tincidunt ultrices convallis. Pellentesque 
-              eget tellus non dolor viverra egestas. Ut 
-              faucibus quam nec tincidunt vulputate. Fusce 
-              sit amet leo lectus. Integer tempus, felis sed 
-              interdum luctus, massa tellus fermentum quam, 
-              id tristique ipsum ante fermentum mi. </p>
-              <div class="tab-titles">
-                <p class="tab-links active-link">Skills</p>
-                <p class="tab-links">Experience</p>
-                <p class="tab-links">Education</p>
-              </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+              et suscipit sapien. Nam tincidunt ultrices convallis. Pellentesque
+              eget tellus non dolor viverra egestas. Ut faucibus quam nec
+              tincidunt vulputate. Fusce sit amet leo lectus. Integer tempus,
+              felis sed interdum luctus, massa tellus fermentum quam, id
+              tristique ipsum ante fermentum mi.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+              <p class="tab-links" onclick="openTab('experience')">Experience</p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Languages</span><br />JavaScript (using Node.js and
+                  browsers as environment), TypeScript, Python
+                </li>
+                <li>
+                  <span>Testing</span><br />Test-Driven-Development, Jest,
+                  Supertest, Pytest
+                </li>
+                <li>
+                  <span>Back-end</span><br />SQL, PSQL, seeding, migrations,
+                  Flask
+                </li>
+                <li>
+                  <span>Front-end</span><br />HTML, CSS, React, Angular, Bootstrap, Lighthouse and other accessibility tools
+                </li>
+                <li>
+                  <span>Hosting</span><br />Cloudflare, Netlify
+                </li>
+                <li>
+                  <span>Other</span><br />Paired programming, technical communication, SDL, Agile and SCRUM methodologies
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2023-Present</span><br />Junior Developer at Northcoders</li>
+                <li><span>2021-2023</span><br />Senior Games Master at Cave Escape Nottingham</li>
+                <li><span>2021-2023</span><br />Freelance Actor in various locations, including Curve Leicester & Derby Theatre</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2018-2021</span><br />BA First Class Honours in Performance for Stage and Screen at Sheffield Hallam University</li>
+                <li><span>2016-2018</span><br />D*D*D* BTEC Level 3 Extended Diploma in Acting</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
