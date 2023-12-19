@@ -356,3 +356,10 @@ nav ul li a:hover::after {
   color: var(--yellow);
   transform: translateY(-5px);
 }
+
+.btn.btn2{
+  display: inline-block;
+  background:var(--yellow);
+  color:var(--black);
+  font-weight: bold;
+}
