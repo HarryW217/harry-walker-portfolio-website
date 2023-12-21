@@ -445,6 +445,7 @@ nav .fa-solid{
     height: 100vh;
     padding-top: 50px;
     color: var(--black);
+    z-index: 2;
   }
 
   nav ul li{
