@@ -85,15 +85,26 @@ nav ul li a:hover::after {
 
 .header-part-two {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  height:100vh;
 }
 
 @keyframes fadeIn{
   0% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+.header-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: fadeIn 3s;
+}
+
+.header-links .social-icons i {
+ font-size: 100px;
 }
 
 /* ---------- ABOUT ---------- */
