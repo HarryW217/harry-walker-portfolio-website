@@ -77,6 +77,7 @@ nav ul li a:hover::after {
 .header-text h1 {
   font-size: 120px;
   margin-top: 20px;
+  margin-bottom:20px
 }
 
 .header-text h1 span {
@@ -88,7 +89,7 @@ nav ul li a:hover::after {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height:100vh;
+  height:90vh;
 }
 
 @keyframes fadeIn{
@@ -406,4 +407,22 @@ form .btn2 {
   margin-top: 20px;
 }
 
+/* ---------- CSS for small screens ---------- */
+
+/*1340*/
+
+@media only screen and (max-width: 600px){
+  .header-part-two {
+    height:70vh;
+  }
+  
+  .header-text {
+    font-size: 16px;
+    height: 10px;
+  }
+
+  .header-text h1 {
+    font-size: 60px;
+  }
+}
 
