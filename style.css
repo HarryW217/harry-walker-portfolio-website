@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 :root {
   --black: #080808;
   --white: #fff;
@@ -18,10 +22,8 @@ body {
 
 #header {
   width: 100%;
-  /* background-image: url(); */
   background-size: cover;
   background-position: center;
-  /* Note: Will potentially use a background image */
 }
 
 .logo {
@@ -70,14 +72,14 @@ nav ul li a:hover::after {
 }
 
 .header-text {
-  font-size: 60px;    
+  font-size: 60px;
   animation: fadeIn 3s;
 }
 
 .header-text h1 {
   font-size: 120px;
   margin-top: 20px;
-  margin-bottom:20px
+  margin-bottom: 20px;
 }
 
 .header-text h1 span {
@@ -89,15 +91,19 @@ nav ul li a:hover::after {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height:90vh;
+  height: 90vh;
 }
 
-@keyframes fadeIn{
-  0% {opacity: 0;}
-  100% {opacity: 1;}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.header-links{
+.header-links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,7 +111,7 @@ nav ul li a:hover::after {
 }
 
 .header-links .social-icons i {
- font-size: 100px;
+  font-size: 100px;
 }
 
 /* ---------- ABOUT ---------- */
@@ -409,18 +415,17 @@ form .btn2 {
 
 /* ---------- CSS for small screens ---------- */
 
-nav .fa-solid{
-  display:none;
+nav .fa-solid {
+  display: none;
 }
 
-@media only screen and (max-width: 600px){
-
-/* ---------- Header ---------- */
+@media only screen and (max-width: 600px) {
+  /* ---------- Header ---------- */
 
   .header-part-two {
-    height:70vh;
+    height: 70vh;
   }
-  
+
   .header-text {
     font-size: 16px;
     height: 10px;
@@ -430,8 +435,8 @@ nav .fa-solid{
     font-size: 60px;
   }
 
-  nav .fa-solid{
-    display:block;
+  nav .fa-solid {
+    display: block;
     font-size: 25px;
   }
 
@@ -452,54 +457,54 @@ nav .fa-solid{
     transition: right 0.5s;
   }
 
-  nav ul li{
+  nav ul li {
     display: block;
     margin: 25px;
   }
 
-  nav ul .fa-solid{
+  nav ul .fa-solid {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
   }
 
-  .fa-bars{
-    cursor:pointer;
+  .fa-bars {
+    cursor: pointer;
   }
 
-/* ---------- ABOUT ME ---------- */
+  /* ---------- ABOUT ME ---------- */
 
-  .sub-title{
+  .sub-title {
     font-size: 40px;
   }
 
-  .about-col-1, .about-col-2{
+  .about-col-1,
+  .about-col-2 {
     flex-basis: 100%;
   }
 
-  .about-col-1{
+  .about-col-1 {
     margin-bottom: 30px;
   }
 
-  .about-col-2{
+  .about-col-2 {
     font-size: 14px;
   }
 
-  .tab-links{
+  .tab-links {
     font-size: 16px;
     margin-right: 20px;
   }
 
-/* ---------- CONTACT ME ---------- */
+  /* ---------- CONTACT ME ---------- */
 
-  .contact-left, .contact-right{
+  .contact-left,
+  .contact-right {
     flex-basis: 100%;
   }
 
-  .copyright{
+  .copyright {
     font-size: 14px;
   }
-
 }
-
