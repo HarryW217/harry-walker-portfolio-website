@@ -446,6 +446,7 @@ nav .fa-solid{
     padding-top: 50px;
     color: var(--black);
     z-index: 2;
+    transition: right 0.5s;
   }
 
   nav ul li{
@@ -459,5 +460,11 @@ nav .fa-solid{
     left: 25px;
     cursor: pointer;
   }
+
+  .fa-bars{
+    cursor:pointer;
+  }
+
+
 }
 
