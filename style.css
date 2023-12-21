@@ -409,7 +409,9 @@ form .btn2 {
 
 /* ---------- CSS for small screens ---------- */
 
-/*1340*/
+nav .fa-solid{
+  display:none;
+}
 
 @media only screen and (max-width: 600px){
   .header-part-two {
@@ -423,6 +425,38 @@ form .btn2 {
 
   .header-text h1 {
     font-size: 60px;
+  }
+
+  nav .fa-solid{
+    display:block;
+    font-size: 25px;
+  }
+
+  nav ul li a {
+    color: var(--black);
+  }
+
+  nav ul {
+    background: var(--yellow);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    color: var(--black);
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px;
+  }
+
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
   }
 }
 
