@@ -115,6 +115,7 @@ nav ul li a:hover::after {
 }
 
 /* ---------- ABOUT ---------- */
+
 #about {
   padding: 80px 0;
   color: var(--white);
@@ -420,6 +421,7 @@ nav .fa-solid {
 }
 
 @media only screen and (max-width: 600px) {
+
   /* ---------- Header ---------- */
 
   .header-part-two {
