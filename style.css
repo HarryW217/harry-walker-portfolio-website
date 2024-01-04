@@ -134,6 +134,10 @@ nav ul li a:hover::after {
   justify-content: center;
 }
 
+.about-col-2 h1 {
+  margin-bottom: 10px;
+}
+
 .about-col-1 img {
   width: 100%;
   border-radius: 15px;
