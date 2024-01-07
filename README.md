@@ -18,4 +18,18 @@ This website is hosted using Netlify. You can visit at this address: https://har
 
 `External Libraries`: 'FontAwesome' icons have been used throughout this site, demonstrating to me how external libraries may be used to add visual appeal to apps I develop. 
 
+##Instructions
+
+Would you like to use this website as a basis for your own portfolio? Go for it!
+
+open your terminal and navigate to the directory you would like to keep this project in. Once you're there, enter the following command:
+
+```
+git clone (then paste the repo url here)
+```
+
+I would recommend opening the repo on VS Code and installing 'Live Server' to locally host the website and see it as you edit it.
+
+Any questions? Drop me a message on my website's contact form!
+
 More Details on this Repo to follow...
