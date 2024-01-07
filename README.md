@@ -14,8 +14,8 @@ This website is hosted using Netlify. You can visit at this address: https://har
 
 `JavaScript for Interactivity`: I used my strong understanding of JavaScript to create functions that may be used as a HTML script and implement interactive features. I got more practise using event listeners and manipulating the DOM so the user can switch 'about me' tabs or use a mobile side menu. 
 
-`Contact Form`
+`Contact Form`: Using a script URL and adding an event listener, the website can allow users to get in contact with me, with the message being sent to an external Google Sheet. 
 
-`External Libraries`
+`External Libraries`: 'FontAwesome' icons have been used throughout this site, demonstrating to me how external libraries may be used to add visual appeal to apps I develop. 
 
 More Details on this Repo to follow...
