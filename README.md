@@ -22,7 +22,7 @@ This website is hosted using Netlify. You can visit at this address: https://har
 
 Would you like to use this website as a basis for your own portfolio? Go for it!
 
-open your terminal and navigate to the directory you would like to keep this project in. Once you're there, enter the following command:
+Open your terminal and navigate to the directory you would like to keep this project in. Once you're there, enter the following command:
 
 ```
 git clone (then paste the repo url here)
@@ -32,4 +32,6 @@ I would recommend opening the repo on VS Code and installing 'Live Server' to lo
 
 Any questions? Drop me a message on my website's contact form!
 
-More Details on this Repo to follow...
+## Acknowledgements
+
+Special thanks to FontAwesome for providing the icons for the website. This website was made with inspiration from the following Youtube tutorial from GreatStack: https://www.youtube.com/watch?v=0YFrGy_mzjY
