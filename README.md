@@ -18,7 +18,7 @@ This website is hosted using Netlify. You can visit at this address: https://har
 
 `External Libraries`: 'FontAwesome' icons have been used throughout this site, demonstrating to me how external libraries may be used to add visual appeal to apps I develop. 
 
-##Instructions
+## Instructions
 
 Would you like to use this website as a basis for your own portfolio? Go for it!
 
