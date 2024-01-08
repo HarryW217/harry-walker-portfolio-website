@@ -38,8 +38,8 @@ form.addEventListener("submit", (e) => {
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then((response) => {
       successMessage.innerHTML = "Message Sent Successfully!";
-      setTimeout(function () {
-        msg.innerHTML = "";
+      setTimeout(() => {
+        successMessage.innerHTML = "";
       }, 5000);
       form.reset();
     })
