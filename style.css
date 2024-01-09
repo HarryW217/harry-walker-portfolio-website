@@ -444,6 +444,10 @@ nav .fa-solid {
     height: 70vh;
   }
 
+  .header-text{
+    margin-bottom: 20px;
+  }
+
   .header-links {
     margin-top: 20px;
   }
