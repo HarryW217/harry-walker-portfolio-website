@@ -199,7 +199,7 @@ nav ul li a:hover::after {
   display: block;
 }
 
-#education{
+#education {
   margin-bottom: 150px;
 }
 
@@ -442,6 +442,10 @@ nav .fa-solid {
 
   .header-part-two {
     height: 70vh;
+  }
+
+  .header-links {
+    margin-top: 20px;
   }
 
   .header-text {
