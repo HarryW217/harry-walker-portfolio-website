@@ -25,7 +25,7 @@ Would you like to use this website as a basis for your own portfolio? Go for it!
 Open your terminal and navigate to the directory you would like to keep this project in. Once you're there, enter the following command:
 
 ```
-git clone (then paste the repo url here)
+git clone https://github.com/HarryW217/harry-walker-portfolio-website.git
 ```
 
 I would recommend opening the repo on VS Code and installing 'Live Server' to locally host the website and see it as you edit it.
