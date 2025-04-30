@@ -26,6 +26,19 @@ function closeMenu() {
   sideMenu.style.right = "-200px";
 }
 
+//"SEE MORE" TOGGLE VISIBILITY
+
+document.getElementById("see-more-btn").addEventListener("click", function () {
+  const hiddenProjects = document.querySelector(".hidden-projects");
+  if (hiddenProjects.style.display === "none" || hiddenProjects.style.display === "") {
+    hiddenProjects.style.display = "grid"; 
+    this.textContent = "See Less";
+  } else {
+    hiddenProjects.style.display = "none";
+    this.textContent = "See More";
+  }
+});
+
 //CONTACT FORM FUNCTIONALITY
 
 const scriptURL =

@@ -269,7 +269,7 @@ nav ul li a:hover::after {
 
 .work-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
@@ -339,13 +339,21 @@ nav ul li a:hover::after {
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
+  background-color: var(--yellow);
   transition: background 0.5s, color 0.5s;
 }
 
 .btn:hover {
-  background: var(--yellow);
-  color: var(--black);
+  background: var(--black);
+  color: var(--white);
+}
+
+.hidden-projects {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
 }
 
 /* ---------- CONTACT ---------- */
