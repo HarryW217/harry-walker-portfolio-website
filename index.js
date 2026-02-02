@@ -28,16 +28,24 @@ function closeMenu() {
 
 //"SEE MORE" TOGGLE VISIBILITY
 
-document.getElementById("see-more-btn").addEventListener("click", function () {
-  const hiddenProjects = document.querySelector(".hidden-projects");
-  if (hiddenProjects.style.display === "none" || hiddenProjects.style.display === "") {
-    hiddenProjects.style.display = "grid"; 
-    this.textContent = "See Less";
+const seeMoreBtn = document.getElementById("see-more-btn");
+const hiddenProjects = document.querySelector(".hidden-projects");
+
+function handleSeeMoreClick(event) {
+  const shown = hiddenProjects.classList.toggle("show");
+  const btn = event.currentTarget;
+  if (shown) {
+    btn.classList.add("move-down");
+    btn.textContent = "See Less";
+    btn.setAttribute("aria-expanded", "true");
   } else {
-    hiddenProjects.style.display = "none";
-    this.textContent = "See More";
+    btn.classList.remove("move-down");
+    btn.textContent = "See More";
+    btn.setAttribute("aria-expanded", "false");
   }
-});
+}
+
+seeMoreBtn.addEventListener("click", handleSeeMoreClick);
 
 //CONTACT FORM FUNCTIONALITY
 
